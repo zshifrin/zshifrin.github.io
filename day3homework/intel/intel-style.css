@@ -1,16 +1,21 @@
 header {
     
     background-color: dodgerblue;
-    color: antiquewhite;
+    color: white;
     
 }
 
 span a {
     
-    color:antiquewhite;
+    color:white;
 }
 
 #support {
     
-    background-color: darkgrey;
+    background-color: #d3d3d3;
+}
+
+* {
+    
+    font-family: sans-serif
 }
