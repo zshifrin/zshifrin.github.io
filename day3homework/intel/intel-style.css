@@ -1,34 +1,27 @@
 header {
-    
     background-color: #0071c5;
     color: white;
-    
 }
 
 span a {
-    
-    color:white;
+    color: white;
 }
 
 #support {
-    
     background-color: #d3d3d3;
 }
 
 * {
-    
     font-family: sans-serif;
     font-weight: 100;
 }
 
 p {
-    
     font-weight: 100;
     font-size: small;
     color: grey;
 }
 
 processor {
-    
     float: right;
 }
