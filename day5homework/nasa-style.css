@@ -1,0 +1,25 @@
+div {
+    width: 850px;
+    height: 450px;
+    background-image: url(img/nasa-background.jpg)
+}
+
+h1 {
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 450px;
+}
+
+#social {
+    
+}
+
+#office {
+    
+}
+
+#contact {
+    
+}
