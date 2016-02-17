@@ -1,4 +1,4 @@
-div {
+#stars {
     width: 850px;
     height: 450px;
     background-image: url(img/nasa-background.jpg)
@@ -12,14 +12,32 @@ h1 {
     line-height: 450px;
 }
 
-#social {
+#greybox {
+    background-color: lightgray;
+    width: 850px;
+    height: 324px;
+    margin-top: 20px;
+}
+
+.left {
+    float: left;
+    width: 33%;
+}
+
+h2 {
+    font-family: sans-serif;
+    margin: 20px;
     
 }
 
-#office {
-    
+form {
+    margin-left: 10px;
 }
 
-#contact {
-    
+input {
+    width: 200px;
+}
+
+#message {
+    height: 80px;
 }
