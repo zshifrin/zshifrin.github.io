@@ -1,10 +1,47 @@
-topleft {
+header {
+    text-align: center;
+}
+
+#topleft {
     float: left;
     width: 50%;
+    height: 400px;
+}
+
+#topright {
+    float: left;
+    width: 50%;
+    height: 400px;
 }
 
 article {
+    background-color: lightgray;
+    margin-bottom: 20px;
+}
+
+.getsmall {
+    width: 250px;
+    height: 110px;
+}
+
+.sidewords {
+    float: right;
+    width: 300px;
+    text-align: left;   
+}
+
+a {
+    color: forestgreen;
+}
+
+ul:before {
+    content: '✔';
+    color: lawngreen;
+}
+
+.bottom {
     float: left;
+    width: 33%;
 }
 
 .clear-fix:after {
