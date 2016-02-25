@@ -3,6 +3,7 @@
     background-repeat: no-repeat;
     width: 1080px;
     height: 600px;
+    
 }
 #craft p {
     color: white;
@@ -54,16 +55,16 @@
     color: lawngreen;
 }
 #grow {
-    background: url('../img/featured-image-3.jpg') rgba(70, 72, 82, 0.9); 
+    background: url('../img/featured-image-3.jpg') rgba(20, 20, 20, 0.9); 
     background-repeat: no-repeat;
     
 }
 #plant {
-    background: url('../img/featured-image-4.jpg') rgba(70, 72, 82, 0.9);
+    background: url('../img/featured-image-4.jpg') rgba(20, 20, 20, 0.9);
     background-repeat: no-repeat;
 }
 #land {
-    background: url('../img/featured-image-5.jpg') rgba(70, 72, 82, 0.9);
+    background: url('../img/featured-image-5.jpg') rgba(20, 20, 20, 0.9);
     background-repeat: no-repeat;
     width: 600px;
     height: 500px;
