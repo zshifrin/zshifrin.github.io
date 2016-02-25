@@ -1,3 +1,40 @@
+#craft {
+    background: url(../img/1.jpg);
+    background-repeat: no-repeat;
+    width: 1080px;
+    height: 600px;
+}
+#craft p {
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    top: 40%;
+    transform: translateY(-50%);
+}
+#craft h1 {
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+#craft h3 {
+    color:white;
+    text-align: center;
+    position: relative;
+    top: 55%;
+    transform: translateY(-50%);
+}
+#craft a {
+    display: block;
+    height: 100px;
+    width: 300px;
+    color: white;
+    background-color: greenyellow;
+}
 .small-box {
     width: 300px;
     height: 300px;
@@ -24,12 +61,16 @@
     background-repeat: no-repeat;
     width: 600px;
     height: 500px;
-    padding: 50px;
+    padding-right: 100px;
+    padding-left: 1px;
+    margin-left: 24px;
     float: left;
 }
 #land h1 {
     color: white;
     text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 1.5em;
 }
 #land h3 {
     color: lawngreen;
