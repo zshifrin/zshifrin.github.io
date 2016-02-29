@@ -42,7 +42,30 @@ header nav a:hover {
 #about div {
     float: left;
     width: 50%;
+    text-align: center;
 }
 #about div img {
     float: right;
+    height: 500px;
+    margin-right: 80px;
+}
+#about div h4 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#about div h3 {
+    padding-top: 150px;
+}
+#producing {
+        color: white;
+    background: linear-gradient(to bottom, rgba(20,20,20,0.9) 0%, rgba(0,0,0,0.8) 100%), url(../img/wine13.jpg);
+    background-position: center;
+    height: 400px;
+    text-align: center;
+    padding-top: 250px;
+}
+#producing h5 {
+    font-family: 'Slabo 27px', serif;
+    font-size: 30px;
+    margin-bottom: 40px;
 }
