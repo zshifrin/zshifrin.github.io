@@ -32,3 +32,17 @@ header nav a:hover {
     margin-bottom: 50px;
     font-size: 80px;
 }
+#about {
+    height: 500px;
+}
+#about h4 {
+    font-family: 'Slabo 27px', serif;
+    font-size: 30px;
+}
+#about div {
+    float: left;
+    width: 50%;
+}
+#about div img {
+    float: right;
+}
