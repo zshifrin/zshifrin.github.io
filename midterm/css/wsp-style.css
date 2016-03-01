@@ -2,6 +2,11 @@
     width: 80%;
     margin: 0 auto;
 }
+.clear-fix:after {
+    content: '';
+    display: block;
+    clear: both;
+}
 header {
     height: 20px;
     padding: 15px;
@@ -25,6 +30,7 @@ header nav a:hover {
     background: url('../img/background.jpg');
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
     height: 400px;
     text-align: center;
     color: white;
@@ -45,4 +51,14 @@ header nav a:hover {
 }
 #moody div p {
     text-align: center;
+}
+#four {
+    float: left;
+    width: 25%;
+}
+#four div img {
+    height: 300px;
+}
+ #four div h4 {
+    font-size: 20px;
 }
