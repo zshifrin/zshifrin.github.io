@@ -69,3 +69,29 @@ header nav a:hover {
     font-size: 30px;
     margin-bottom: 40px;
 }
+#wines {
+    height: 400px;
+}
+#wines div {
+    width: 33%;
+    float: left;
+    text-align: center;
+}
+#wines div img {
+    height: 300px;
+}
+div h6 {
+    font-family: 'Slabo 27px', serif;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+#wines p {
+    padding-bottom: 10px;
+}
+#wines div a {
+    text-decoration: none;
+    background-color: forestgreen;
+    color: white;
+    font-size: 13px;
+    padding: 5px;
+}
