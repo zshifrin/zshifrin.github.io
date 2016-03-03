@@ -52,13 +52,42 @@ header nav a:hover {
 #moody div p {
     text-align: center;
 }
+#moody {
+    padding-bottom: 30px;
+}
 #four {
+    /*background: green;*/
+    padding-bottom: 30px;
+}
+#four div {
     float: left;
-    width: 25%;
+    width: 23%;
+    text-align: center;
+    margin-right: 15px;
 }
-#four div img {
-    height: 300px;
+#four div:last-child {
+    margin-right: 0;
 }
- #four div h4 {
+#four div h4 {
     font-size: 20px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+#four div p {
+    text-align: center;
+}
+#double div {
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+#double div p {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 81px;
+    margin-left: 81px;
+}
+#double div h5 {
+    text-align: right;
+    margin-right: 85px;
 }
