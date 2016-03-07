@@ -41,6 +41,19 @@ header nav a:hover {
     font-size: 60px;
     font-family: 'Slabo 27px', serif;
 }
+#bigpic h2 {
+    font-size: 30px;
+}
+#bigpic a {
+    background-color: none;
+    border: 1px solid white;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
 #moody div img {
     float: left;
     width: 50%;
@@ -95,14 +108,27 @@ header nav a:hover {
     margin-right: 85px;
 }
 #last {
-    background: url('http://www.placehold.it/800x300');
+    background: url('..//img/panicstream.jpg');
     height: 300px;
     text-align: center;
+    background-repeat: no-repeat;
+    width: 800px;
+    margin-left: 50px;
 }
 #last p {
     font-size: 30px;
-    padding-top: 80px;
+    padding-top: 120px;
     margin-bottom: 30px;
     text-align: center;
+    color: white;
 }
-#
+#last a {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
