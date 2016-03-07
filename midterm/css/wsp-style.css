@@ -76,6 +76,9 @@ header nav a:hover {
 #four div p {
     text-align: center;
 }
+#double {
+    padding-bottom: 30px;
+}
 #double div {
     float: left;
     width: 50%;
@@ -91,3 +94,15 @@ header nav a:hover {
     text-align: right;
     margin-right: 85px;
 }
+#last {
+    background: url('http://www.placehold.it/800x300');
+    height: 300px;
+    text-align: center;
+}
+#last p {
+    font-size: 30px;
+    padding-top: 80px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+#
