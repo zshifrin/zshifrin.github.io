@@ -2,30 +2,37 @@
     width: 80%;
     margin: 0 auto;
 }
+
 .clear-fix:after {
     content: '';
     display: block;
     clear: both;
 }
+
 header {
     height: 20px;
     padding: 15px;
 }
+
 header h1 {
     float: left;
     text-transform: uppercase;
 }
+
 header nav {
     float: right;
 }
+
 header nav a {
     text-decoration: none;
     color: black;
     margin-left: 15px;
 }
+
 header nav a:hover {
     text-decoration: underline;
 }
+
 #bigpic {
     background: url('../img/background.jpg');
     background-repeat: no-repeat;
@@ -37,13 +44,16 @@ header nav a:hover {
     padding-top: 100px;
     margin-bottom: 30px;
 }
+
 #bigpic h1 {
     font-size: 60px;
     font-family: 'Slabo 27px', serif;
 }
+
 #bigpic h2 {
     font-size: 30px;
 }
+
 #bigpic a {
     background-color: none;
     border: 1px solid white;
@@ -54,60 +64,74 @@ header nav a:hover {
     display: inline-block;
     font-size: 16px;
 }
+
 #moody div img {
     float: left;
     width: 50%;
     padding-right: 20px;
 }
+
 #moody div h3 {
     text-align: center;
     font-size: 30px;
 }
+
 #moody div p {
     text-align: center;
 }
+
 #moody {
     padding-bottom: 30px;
 }
+
 #four {
     /*background: green;*/
     padding-bottom: 30px;
 }
+
 #four div {
     float: left;
     width: 23%;
     text-align: center;
     margin-right: 15px;
 }
+
 #four div:last-child {
     margin-right: 0;
 }
+
 #four div h4 {
     font-size: 20px;
     padding-bottom: 15px;
     padding-top: 15px;
 }
+
 #four div p {
     text-align: center;
 }
+
 #double {
     padding-bottom: 30px;
 }
+
 #double div {
     float: left;
     width: 50%;
     text-align: center;
 }
+
 #double div p {
     margin-top: 5px;
     margin-bottom: 5px;
     margin-right: 81px;
     margin-left: 81px;
 }
+
 #double div h5 {
     text-align: right;
     margin-right: 85px;
 }
+
 #last {
     background: url('..//img/panicstream.jpg');
     height: 300px;
@@ -116,6 +140,7 @@ header nav a:hover {
     width: 800px;
     margin-left: 50px;
 }
+
 #last p {
     font-size: 30px;
     padding-top: 120px;
@@ -123,6 +148,7 @@ header nav a:hover {
     text-align: center;
     color: white;
 }
+
 #last a {
     background-color: black;
     border: none;
