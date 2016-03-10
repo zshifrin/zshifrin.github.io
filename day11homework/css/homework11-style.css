@@ -4,28 +4,33 @@
     background-size: cover;
     height: 550px;
 }
+
 #hero h1 {
     color: white;
     text-align: center;
     padding-top: 150px;
     font-size: 50px;
 }
+
 #hero p {
     color: white;
     text-align: center;
 }
+
 #fourdiv div {
     float: left;
     width: 25%;
     text-align: center;
     margin-top: 15px;
 }
+
 @media (min-width: 768px) and (max-width: 991px) {
     /*Tablet Style*/
     #fourdiv div {
         width: 50%;
     }
 }
+
 @media (max-width: 767px) {
     /*Phone Style*/
     #fourdiv div {
