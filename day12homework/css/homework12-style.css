@@ -74,10 +74,17 @@ section div {
     #bottom h1 {
         font-size: 40px
     }
+    #turquoise {
+        background-color: black;
+    }
     main section {
         width: 50%;
-        background-color: lightgray;
-        color: black;
+        background-color: dodgerblue;
+        color: white;
+    }
+    section p {
+        margin-left: 70px;
+        margin-right: 70px;
     }
     
 }
