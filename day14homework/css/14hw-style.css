@@ -1,0 +1,45 @@
+#headline h3{
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    border-bottom: 2px solid black;
+    font-weight: bold;
+    font-size: 30px;
+}
+#headline p{
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 5px;
+    
+}
+#title h1{
+    font-size: 45px;
+}
+#title p{
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+#title a{
+    text-decoration: none;
+    color: white;
+    background-color: grey;
+    padding: 5px;
+    text-transform: uppercase;
+}
+footer{
+    background-color:grey;
+    text-align: center;
+    margin-top: 20px;
+}
+footer h4{
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+footer p{
+    padding: 10px;
+    border-bottom: 2px solid white;
+}
+footer p a{
+    text-decoration: none;
+    color: white;
+}
