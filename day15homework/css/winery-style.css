@@ -1,0 +1,20 @@
+#hero {
+    background: url(../img/wine-bg.jpg);
+    background-position: center;
+    height: auto;
+    text-align: center;
+    background-size: cover;
+    
+}
+h5 em {
+    color: #fff;
+}
+.navbar {
+    background:transparent;
+}
+.navbar .navbar-brand{
+    color: #fff;
+}
+.navbar div .nav li a{
+    color: white;
+}

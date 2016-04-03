@@ -1,0 +1,27 @@
+div {
+    height: 180px;
+}
+body {
+    background: #f2f2f2;
+}
+.yellow-bg {
+    background: yellow;
+    width: 430px;
+    height: 556px;
+    padding: 55px 55px 100px 100px;
+}
+main.container {
+    width: 1170px;
+    height: 1232px;
+}
+#grey-text {
+    background: #d9d9d9;
+    width: 262.5px;
+    height: 270.266px;
+}
+#img-pad {
+    padding-bottom: 15px;
+}
+#img-pad2 {
+    padding-bottom: 5px;
+}
