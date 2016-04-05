@@ -4,24 +4,55 @@ div {
 body {
     background: #f2f2f2;
 }
+h4 {
+    font-family: serif;
+    font-size: 22pt;
+    font-weight: normal;
+}
+p {
+    font-family: serif;
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 22pt;
+    letter-spacing: 0.2pt;
+}
 .yellow-bg {
     background: yellow;
-    width: 430px;
-    height: 556px;
-    padding: 55px 55px 100px 100px;
+    width: 50%;
+    height: 505.484px;
+    padding: 155px 55px 100px 100px;
 }
 main.container {
     width: 1170px;
     height: 1232px;
 }
-#grey-text {
+.grey-text {
     background: #d9d9d9;
     width: 262.5px;
     height: 270.266px;
+    text-align: center;
 }
-#img-pad {
+#grey1 {
+    height: 219.75px;
+}
+.grey-text h4 {
+    padding-top: 50px;
+}
+#img-pad1 {
     padding-bottom: 15px;
 }
 #img-pad2 {
     padding-bottom: 5px;
+}
+#grey-bg{
+    background: #d9d9d9;
+    width: 50%;
+    height: 556px;
+    padding: 155px 55px 100px 100px;
+}
+#part-2 {
+    padding-top: 15px;
+}
+#img-pad3 {
+    padding-bottom: 11px;
 }
