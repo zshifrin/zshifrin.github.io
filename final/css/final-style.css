@@ -2,29 +2,34 @@ main {
     margin-top: 50px;
     background-color: #ffffcc;
 }
+
 .navbar {
     background-color: #ffffcc;
 }
+
 #hero {
     background: url('../img/sunsetelly1.JPG');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 250px 0;
+    padding: 200px 0;
     text-align: center;
     background-size: 100%;
 }
+
 #hero h1 {
     font-size: 7em;
     text-transform: uppercase;
     color: #ffffcc;
 }
+
 #hero h3 {
     font-size: 3em;
     text-transform: uppercase;
     color: #ffffcc;
     margin-bottom: 30px;
 }
+
 .btn-action {
     padding: 10px 15px;
     border: 2px solid ivory;
@@ -36,54 +41,77 @@ main {
     color: ivory;
     text-decoration: none;
 }
+
 #guide {
     padding: 80px 0;
 }
+
 #guide {
     line-height: 24px;
 }
+
 #animals p {
     text-align: center;
 }
+
 #animals {
     padding: 80px 0;
 }
+
 #massai {
     padding: 80px 0;
 }
+
 #massai p {
     text-align: center;
 }
+
 #lions {
     background: url('../img/lionfeast.JPG');
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
-    padding: 200px 0;
+    padding: 250px 0;
     text-align: center;
 }
+
 #lions h3 {
     font-size: 3em;
     color: ivory;
 }
-#lions div a{
-        margin-right: 30px;
-    }
+
+#lions div a {
+    margin-right: 30px;
+}
+
 #contact {
     text-align: center;
 }
+
+
 /*laptop*/
+
 @media (min-width: 992px) {
-    
+    #hero {
+        padding: 200px;
+    }
 }
+
+
 /*tablet*/
+
 @media (min-width: 769px) and (max-width: 991px) {
-    
+    #hero {
+        padding: 80px;
+    }
 }
+
+
 /*phone*/
+
 @media (max-width: 768px) {
     #hero {
-        padding: 20px 0;
+        padding: 60px 0;
     }
     #hero h1 {
         font-size: 3em;
@@ -95,5 +123,4 @@ main {
         font-size: 2em;
         padding-bottom: 75px;
     }
-    
 }
