@@ -82,11 +82,14 @@ main {
 }
 /*phone*/
 @media (max-width: 768px) {
+    #hero {
+        padding: 20px 0;
+    }
     #hero h1 {
-        font-size: 4em;
+        font-size: 3em;
     }
     #hero h3 {
-        font-size: 2em;
+        font-size: 1.5em;
     }
     #lions h3 {
         font-size: 2em;
