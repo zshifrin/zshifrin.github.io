@@ -12,14 +12,18 @@ main {
     background-size: cover;
     padding: 250px 0;
     text-align: center;
+    background-size: 100%;
 }
 #hero h1 {
     font-size: 7em;
     text-transform: uppercase;
+    color: #ffffcc;
 }
 #hero h3 {
     font-size: 3em;
     text-transform: uppercase;
+    color: #ffffcc;
+    margin-bottom: 30px;
 }
 .btn-action {
     padding: 10px 15px;
@@ -54,11 +58,39 @@ main {
     background: url('../img/lionfeast.JPG');
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
     padding: 200px 0;
     text-align: center;
 }
 #lions h3 {
     font-size: 3em;
     color: ivory;
+}
+#lions div a{
+        margin-right: 30px;
+    }
+#contact {
+    text-align: center;
+}
+/*laptop*/
+@media (min-width: 992px) {
+    
+}
+/*tablet*/
+@media (min-width: 769px) and (max-width: 991px) {
+    
+}
+/*phone*/
+@media (max-width: 768px) {
+    #hero h1 {
+        font-size: 4em;
+    }
+    #hero h3 {
+        font-size: 2em;
+    }
+    #lions h3 {
+        font-size: 2em;
+        padding-bottom: 75px;
+    }
+    
 }
